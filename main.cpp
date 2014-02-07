@@ -8,8 +8,23 @@
 int main ()
 {
 	double pause;
+	Rational rOne;
+	Rational rTwo(rOne);
+	Rational c(3), d(2, 3), e("2/4");
 
-	cout<<"Enter a value: ";
+	cout<<c;
+	cout<<d;
+	cout<<e;
+	cout<<rOne;
+	cout<<rTwo;
+
+	cin>>rOne;
+	cout<<rOne<<endl;
+	rOne+= 2;
+	cout<<rOne<<endl;
+
+
+	//starting testing
 	cin>> pause;
 }
 	
